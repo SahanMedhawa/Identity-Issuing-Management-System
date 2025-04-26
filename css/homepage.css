@@ -1,0 +1,90 @@
+@charset "utf-8";
+.appBox {
+    flex:50%;
+    width: 400px;
+    border-radius: 8px;
+    border: 3px solid black;;
+    padding: 5px;
+    margin: 5px;
+    margin-left: 10%;
+    margin-right: 5%;
+    text-align: center;
+    background-color: #f6f9ff;
+}
+
+.appBox hr {
+    margin: 0%;
+
+}
+
+.infograph
+{
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 15px;
+    width: 180px;
+    color: black;
+    background-color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    border-color: black;
+    border: 2px solid black;
+}
+
+button:hover {
+    color: #f77b2e;
+    border-color: #f77b2e;
+}
+
+.appBox a {
+    color: black;
+}
+
+.appBox a:hover {
+    color: #f77b2e;
+}
+
+.appBox p {
+    margin: 8px;
+    font-size: 26px;
+}
+
+.appBox img {
+    margin-top:4px;
+    width: 30%;
+}
+
+.resBox {
+    flex:50%;
+    width: 500px;
+    border-radius: 8px;
+    border: 3px solid black;
+    padding: 5px;
+    margin: 5px;
+    margin-left: 5%;
+    margin-right: 10%;
+    text-align: center;
+    background-color: #f6f9ff;
+}
+
+.resBox a {
+    color: black;
+}
+
+.resBox a:hover {
+    color: #f77b2e;
+}
+
+.resBox p {
+    margin: 8px;
+    font-size: 26px;
+}
+
+.resBox img {
+    margin-bottom: 10px;
+    width: 28%;
+}
+

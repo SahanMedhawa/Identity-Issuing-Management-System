@@ -1,0 +1,99 @@
+#heads {
+    text-align: left;
+    color: black}
+
+
+
+.back {
+    /* background: linear-gradient(0deg, #f7f5f500, #b2cde5), url(../images/newbackground3.jpg); */
+     /* background: linear-gradient(178deg, #87cfe14a, #cdddec), url(../images/Backgroundtry1.jpg);  */
+    background: linear-gradient(250deg, #ffffffba, #bcdffff0), url('../images/loginbg.jpg'); 
+    /* background: linear-gradient(73deg, #edeeffba, #6ba1d2ab), url(../images/Backgroundtry3.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size:18px;
+}
+
+
+td.col1 {
+    text-align: center;
+}
+
+td.col2 {
+    text-align: center;
+}
+
+td.col3 {
+    text-align: center;
+}
+
+td.col4 {
+    text-align: center;
+}
+
+hr {
+    
+    border-top:5px solid darkblue;
+}
+
+hr.new1 {
+	border-top: 2px solid black;
+}
+
+.ProductData {
+    background-color: #c1e8ed;
+    font-family: 'Times New Roman', Times, serif;
+}
+mark {
+    background-color: yellow;
+    color: darkred;
+    font-family:'Times New Roman', Times, serif;
+}
+
+mark.new1{
+    background-color: darkblue;
+    color: white;
+   
+}
+
+mark.new2{
+    background-color: darkblue;
+    color: white;
+   
+}
+
+mark.new3{
+    background-color: darkblue;
+    color: white;
+   
+}
+
+mark.new4{
+    background-color: darkblue;
+    color: white;
+   
+}
+
+mark.new5{
+    background-color: darkblue;
+    color: white;
+   
+}
+
+mark.new6{
+    background-color: darkblue;
+    color: white;
+   
+}
+
+mark.new7{
+    background-color: darkblue;
+    color: white;
+   
+}
+
+mark.new8{
+    background-color: darkblue;
+    color: white;
+   
+}

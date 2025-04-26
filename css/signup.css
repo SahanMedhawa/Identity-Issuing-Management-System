@@ -1,0 +1,109 @@
+* {
+    font-family: "Poppins", sans-serif;  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.identity-system {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 10px;
+    color: #181717;
+    font-size: 47px; 
+    font-weight: 900; 
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5); /*shadow effect */
+    z-index: 999;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 3px; 
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.profilelogo {
+    height: 120px;
+    width: 120px;
+    position: relative;
+    left: 105px;
+}    
+
+header {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(7, 14, 59);
+    font-size: 30px;
+}
+
+.container {
+    height: 100vh; /* fit vertical content as column*/
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.form {
+    position: relative;
+    width:450px ;
+    padding: 60px;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
+    background-color: #adcbd8; 
+    
+}
+
+.firstname,
+.lastname,
+.email,
+.password,
+.confirm-password,
+.phone {
+    width: calc(100% - 13px);
+    padding: 8px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.agreement {
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+label {
+    font-size: 14px;
+}
+
+.field button { /*login button*/   
+    height: 35px; /* Adjust height as needed */
+    width: 100%; /* Make button full width */
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 6px;
+    color: #0b0b0b;
+    background-color: #04AA6D;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.field button:hover {
+    color: #fff;
+    background-color: #343434;
+}
+
+.form a {  /*links color*/
+    color: #0171d3 ;
+    text-decoration: none;
+}
+
+.form-content a:hover { /*links hover*/
+    text-decoration: underline; 
+}
+.space {
+    margin-top: 5px;
+}

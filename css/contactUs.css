@@ -1,0 +1,77 @@
+.back2 {
+    display:flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-image: linear-gradient(250deg, #ffffffba, #bcdffff0), url(../images/loginbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.contactsubmit {
+    font-size: 16px;
+    padding: 10px;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    width: 200px;
+    margin-left: 2%;
+    cursor:pointer;
+    
+}
+.contactsubmit:hover {
+    color: #ffffff;
+    background: #f77b2e;
+}
+
+
+
+.contactUs input {
+    padding: 6px;
+    margin-bottom: 16px;
+    width: 50%;
+}
+
+.contactUs label {
+    padding: 2px;
+}
+
+.contactUs {
+    margin-left: 2%;
+    font-size: 17px;
+}
+
+.heaading {
+    margin-left: 2%;
+}
+
+
+.formcont {
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+.col {
+    width: 80%;
+    float: right;
+    padding: 20px;
+    height: 80%;
+}
+
+#contactusinfo {
+    text-align: center;
+    /*background-color: lightgray;*/
+    /*rgb(245, 245, 245);*/
+    font-size: 15px;
+    background: linear-gradient(0deg, #ffffff00, #ffffff), url(../images/background13.jpg);
+}
+
+#help {
+    text-align: center;
+    color: darkblue;
+}
+
+#contactusinfo{
+    font-family:'Arial Rounded MT';
+}

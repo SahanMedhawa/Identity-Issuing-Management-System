@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+.applicationFormContainer
+{
+    background-color: #dcebff;
+    margin-bottom: auto;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.application {
+    margin-left:4%;
+    font-size: 17px;
+}
+
+.application input {
+    padding: 6px;
+    margin-bottom: 16px;
+    width: 80%;
+}
+
+.application input[type="radio"] {
+    padding: 0px;
+    width: 17px;
+}
+
+.application input[type="checkbox"] {
+    padding: 0px;
+    width: 16px;
+    margin-bottom: 20px;
+}
+
+#appSubmit {
+    font-size: 16px;
+    padding: 10px;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    width: 200px;
+}
+
+#appSubmit:disabled {
+    background-color: #818181;
+}
+
+.application label {
+    padding:2px;
+}
+
+.heading {
+    text-align: center;
+    margin: 1%;
+    margin-bottom: 2%;
+    text-decoration: underline;
+}
+
+.appInfo {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 30px;
+}
